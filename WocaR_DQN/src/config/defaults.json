@@ -1,0 +1,47 @@
+{
+    "env_name": "PongNoFrameskip-v4",
+    "exploration":{
+        "exp_initp":1.0,
+        "exp_finalp":0.05,
+        "exploration_frames":2000000
+    },
+    "trained_dir":"none",
+    "frame_total":10000000,
+    "buffer_size":500000,
+    "batch_size": 256,
+    "lr": 5e-4,
+    "gamma": 0.99,
+    "tau":0.005,
+    "learning_starts":50000,
+    "update_freq":"none",
+    "learning_freq": 4,
+    "log_steps": 50,
+    "exp_name": "dqn",
+    "doubleQ": true,
+    "duel": false,
+    "prioritized_replay": true,
+    "beta_start": 0.4,
+    "seed": 10,
+    "no_cuda": true,
+    "cuda": 0,
+    "max_steps":10000,
+    
+    "robust": false,
+    "eps_schedule":{
+        "eps_init": 0.0,
+        "eps_final": 0.01176,
+        "steps": 2000000
+    },
+    "kappa": 0.05,
+    "alpha_schedule":{
+        "alpha_init": 0.2,
+        "alpha_final": 0.8,
+        "steps": 2000000
+    },
+    "reg_solver": "none",
+    "pgd_param": {
+        "pgd_steps": 100,
+        "lr": 0.001,
+        "hinge_c": 1.0
+    }
+}

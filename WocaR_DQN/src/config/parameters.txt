@@ -1,0 +1,35 @@
+
+env_name (str):
+    name of the environment
+exploration (Schedule Object):
+    Schedule of the epsilon in the epsilon-greedy exploration
+        At time step t, calling exploration.value(t) will return the 
+        scheduled epsilon
+    trained_dir (str):
+        If not None, the training script will load the halfly trained model 
+        from the given directory and continue the training process. 
+    frame_total (int):
+        The total amount of frames during training
+    replay_buffer_size(int):
+        size of the replay buffer
+    batch_size (int):
+        size of the batch
+    lr (float):
+        learning rate of the Q agent
+    update_freq (int):
+        It decides how often does the target Q network gets updated. Default is 2500, the same 
+        as the one used in the original Deepmind paper
+    tau (float):
+        If update_freq is None, then we use a soft Polyak updates. 
+        Q_target = (1-tau)*Q_target+tau*Q_current
+    learning_starts (int): 
+        It decides how many environment steps after which we start Q learning process.
+    learning_freq (int): 
+        It decides how many environment steps between every Q learning update.
+    max_steps (int):
+        During rollout, it decides the maximum amount of the environment steps.
+    log_steps (int):
+        It decides how often does the learning process of Q-learning agent gets logged,
+        during which the latest Q-learning agent will also be saved.
+    duel, doubleQ, prioritized_replay (bool):
+        Whether we use dueling dqn, double dqn, ot priortized experience replay

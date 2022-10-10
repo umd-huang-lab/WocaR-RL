@@ -1,0 +1,10 @@
+torch==1.7.1
+gym
+h5py
+atari-py==0.2.6
+numpy==1.18.1
+opencv-python
+matplotlib
+pybullet
+stable-baselines3
+ipython
