@@ -9,10 +9,10 @@ import os
 import copy
 from collections import namedtuple, deque
 from itertools import count
-from VaR_DQN.utils.param import Param
-from VaR_DQN.utils.worst_action import *
-from VaR_DQN.utils.torch_utils import soft_update, hard_update
-from VaR_DQN.utils.ibp import network_bounds, worst_action_select
+from WocaR_DQN.utils.param import Param
+from WocaR_DQN.utils.worst_action import *
+from WocaR_DQN.utils.torch_utils import soft_update, hard_update
+from WocaR_DQN.utils.ibp import network_bounds, worst_action_select
 
 
 ### Rollout the Q-learning Agent in the given environment

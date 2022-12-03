@@ -3,8 +3,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from VaR_DQN.a2c_ppo_acktr.distributions import Bernoulli, Categorical, DiagGaussian, Beta
-from VaR_DQN.a2c_ppo_acktr.utils import init
+from WocaR_DQN.a2c_ppo_acktr.distributions import Bernoulli, Categorical, DiagGaussian, Beta
+from WocaR_DQN.a2c_ppo_acktr.utils import init
 
 STD = 2**0.5
 

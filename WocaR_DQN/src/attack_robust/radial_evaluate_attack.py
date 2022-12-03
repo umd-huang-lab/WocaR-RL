@@ -14,17 +14,17 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from VaR_DQN.a2c_ppo_acktr import algo, utils
-from VaR_DQN.a2c_ppo_acktr.algo import gail
-from VaR_DQN.a2c_ppo_acktr.arguments import get_args
-from VaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
-from VaR_DQN.a2c_ppo_acktr.model import Policy
-from VaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
+from WocaR_DQN.a2c_ppo_acktr import algo, utils
+from WocaR_DQN.a2c_ppo_acktr.algo import gail
+from WocaR_DQN.a2c_ppo_acktr.arguments import get_args
+from WocaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
+from WocaR_DQN.a2c_ppo_acktr.model import Policy
+from WocaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
 # from evaluation import evaluate
-from VaR_DQN.attacker.attacker import common_fgsm, common_pgd, common_momentum_fgm, noisy_pgd
-from VaR_DQN.utils.dqn_core import *
-from VaR_DQN.utils.param import Param
-from VaR_DQN.a2c_ppo_acktr.algo.kfac import KFACOptimizer
+from WocaR_DQN.attacker.attacker import common_fgsm, common_pgd, common_momentum_fgm, noisy_pgd
+from WocaR_DQN.utils.dqn_core import *
+from WocaR_DQN.utils.param import Param
+from WocaR_DQN.a2c_ppo_acktr.algo.kfac import KFACOptimizer
 
 from radial_utils import CnnDQN, A3Cff
 from radial_wrapper import atari_env

@@ -1,9 +1,9 @@
 import gym
-from VaR_DQN.utils.dqn_core import *
-from VaR_DQN.utils.atari_utils import *
-from VaR_DQN.utils.monitor import Monitor
-from VaR_DQN.attacker.attacker import *
-from VaR_DQN.attacker.pa_obs_attacker import *
+from WocaR_DQN.utils.dqn_core import *
+from WocaR_DQN.utils.atari_utils import *
+from WocaR_DQN.utils.monitor import Monitor
+from WocaR_DQN.attacker.attacker import *
+from WocaR_DQN.attacker.pa_obs_attacker import *
 from dqn_test import *
 import os
 import time

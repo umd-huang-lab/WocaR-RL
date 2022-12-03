@@ -3,9 +3,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from VaR_DQN.a2c_ppo_acktr.distributions import Bernoulli, Categorical, DiagGaussian, Beta
-from VaR_DQN.a2c_ppo_acktr.utils import init
-from VaR_DQN.utils.ppo_core import mlp
+from WocaR_DQN.a2c_ppo_acktr.distributions import Bernoulli, Categorical, DiagGaussian, Beta
+from WocaR_DQN.a2c_ppo_acktr.utils import init
+from WocaR_DQN.utils.ppo_core import mlp
 
 
 class Flatten(nn.Module):

@@ -12,14 +12,14 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from VaR_DQN.a2c_ppo_acktr import algo, utils
-from VaR_DQN.a2c_ppo_acktr.algo import gail
-from VaR_DQN.a2c_ppo_acktr.arguments import get_args
-from VaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
-from VaR_DQN.a2c_ppo_acktr.model import Policy
-from VaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
-from VaR_DQN.utils.param import Param
-from VaR_DQN.utils.dqn_core import DQN_Agent, Q_Atari, model_get
+from WocaR_DQN.a2c_ppo_acktr import algo, utils
+from WocaR_DQN.a2c_ppo_acktr.algo import gail
+from WocaR_DQN.a2c_ppo_acktr.arguments import get_args
+from WocaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
+from WocaR_DQN.a2c_ppo_acktr.model import Policy
+from WocaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
+from WocaR_DQN.utils.param import Param
+from WocaR_DQN.utils.dqn_core import DQN_Agent, Q_Atari, model_get
 
 
 def main():

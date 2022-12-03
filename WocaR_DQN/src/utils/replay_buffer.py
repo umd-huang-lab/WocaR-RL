@@ -3,7 +3,7 @@ from collections import namedtuple, deque
 from itertools import count
 import random
 import torch
-from VaR_DQN.utils.param import Param
+from WocaR_DQN.utils.param import Param
 
 
 class DQNReplayBuffer:

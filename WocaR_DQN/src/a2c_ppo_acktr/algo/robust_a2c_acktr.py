@@ -5,7 +5,7 @@ import functools
 
 import numpy as np
 
-from VaR_DQN.a2c_ppo_acktr.algo.kfac import KFACOptimizer
+from WocaR_DQN.a2c_ppo_acktr.algo.kfac import KFACOptimizer
 
 """Computing an estimated upper bound of KL divergence using SGLD."""
 """convex relaxation method needs relaxed actor_critic"""

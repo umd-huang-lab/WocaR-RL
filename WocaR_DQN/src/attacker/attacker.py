@@ -1,15 +1,15 @@
 import torch
 import gym
 gym.logger.set_level(40)
-from VaR_DQN.utils.param import Param
+from WocaR_DQN.utils.param import Param
 import torch.nn as nn
 from torch.autograd import Variable
 from torch.distributions.categorical import Categorical
 from torch.distributions.kl import kl_divergence
 from torch.distributions import Beta
-from VaR_DQN.utils.dqn_core import DQN_Agent, rollout
-# from VaR_DQN.hyperparameter.attack_lr import *
-from VaR_DQN.trainer_adv.a2c_pa_attacker import obs_dir_perturb_fgsm, obs_dir_perturb_pgd, obs_dir_perturb_momentum
+from WocaR_DQN.utils.dqn_core import DQN_Agent, rollout
+# from WocaR_DQN.hyperparameter.attack_lr import *
+from WocaR_DQN.trainer_adv.a2c_pa_attacker import obs_dir_perturb_fgsm, obs_dir_perturb_pgd, obs_dir_perturb_momentum
 import numpy as np
 import os
 
@@ -826,7 +826,7 @@ class Test_Attack_Policy:
 def single_state_attack(env_name, attacker, agent, pgd_steps=100, lr=5e-3,
                         epsilon=0.05, num_trajectories=2000, max_steps=10):
     if (env_name == 'Test'):
-        from VaR_DQN.envs.test_env import TestEnv
+        from WocaR_DQN.envs.test_env import TestEnv
         env = TestEnv()
     else:
         env = gym.make(env_name)

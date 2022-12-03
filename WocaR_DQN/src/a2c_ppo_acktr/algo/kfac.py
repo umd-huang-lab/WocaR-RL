@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from VaR_DQN.a2c_ppo_acktr.utils import AddBias
+from WocaR_DQN.a2c_ppo_acktr.utils import AddBias
 
 # TODO: In order to make this code faster:
 # 1) Implement _extract_patches as a single cuda kernel
@@ -203,7 +203,7 @@ class KFACOptimizer(optim.Optimizer):
 
             if self.steps % self.Tf == 0:
                 # My asynchronous implementation exists, I will add it later.
-                # VaR_DQNing with different ways to this in PyTorch.
+                # WocaR_DQNing with different ways to this in PyTorch.
                 self.d_a[m], self.Q_a[m] = torch.symeig(
                     self.m_aa[m], eigenvectors=True)
                 self.d_g[m], self.Q_g[m] = torch.symeig(

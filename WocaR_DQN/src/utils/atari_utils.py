@@ -7,7 +7,7 @@ from collections import deque
 import gym
 from gym import spaces
 from gym.spaces.box import Box
-from VaR_DQN.utils.monitor import Monitor
+from WocaR_DQN.utils.monitor import Monitor
 import random
 from cv2 import resize
 import cv2

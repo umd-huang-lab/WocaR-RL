@@ -14,14 +14,14 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from VaR_DQN.a2c_ppo_acktr import algo, utils
-from VaR_DQN.a2c_ppo_acktr.algo import gail
-from VaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
-from VaR_DQN.a2c_ppo_acktr.model import Policy
-from VaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
-from VaR_DQN.attacker.attacker import *
-from VaR_DQN.utils.dqn_core import DQN_Agent, Q_Atari, model_get
-from VaR_DQN.a2c_ppo_acktr.algo.kfac import KFACOptimizer
+from WocaR_DQN.a2c_ppo_acktr import algo, utils
+from WocaR_DQN.a2c_ppo_acktr.algo import gail
+from WocaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
+from WocaR_DQN.a2c_ppo_acktr.model import Policy
+from WocaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
+from WocaR_DQN.attacker.attacker import *
+from WocaR_DQN.utils.dqn_core import DQN_Agent, Q_Atari, model_get
+from WocaR_DQN.a2c_ppo_acktr.algo.kfac import KFACOptimizer
 
 ATT_MAP = {
     'minbest': 'huang',

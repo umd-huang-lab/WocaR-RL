@@ -1,19 +1,19 @@
 import sys
 import os
-sys.path.append("/Users/liangyongyuan/robust-rl/code_atari/VaR_DQN")
+sys.path.append("/Users/liangyongyuan/robust-rl/code_atari/WocaR_DQN")
 sys.path.append("/Users/liangyongyuan/robust-rl/code_atari")
 import pickle
 import numpy as np
 from collections import namedtuple, deque
 import copy
 import time
-from VaR_DQN.utils.monitor import Monitor
-from VaR_DQN.utils.dqn_core import *
-from VaR_DQN.utils.atari_utils import atari_env, make_env
-from VaR_DQN.utils.replay_buffer import *
-from VaR_DQN.utils.schedule import *
-from VaR_DQN.utils.load_config import load_config
-from VaR_DQN.utils.param import Param
+from WocaR_DQN.utils.monitor import Monitor
+from WocaR_DQN.utils.dqn_core import *
+from WocaR_DQN.utils.atari_utils import atari_env, make_env
+from WocaR_DQN.utils.replay_buffer import *
+from WocaR_DQN.utils.schedule import *
+from WocaR_DQN.utils.load_config import load_config
+from WocaR_DQN.utils.param import Param
 import random
 import gym
 import gym.spaces

@@ -12,16 +12,16 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.distributions.categorical import Categorical
 from torch.autograd import Variable
-from VaR_DQN.a2c_ppo_acktr import algo, utils
-from VaR_DQN.a2c_ppo_acktr.arguments import get_args
-from VaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
-from VaR_DQN.a2c_ppo_acktr.model import Policy, BetaMLP
-from VaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
-from VaR_DQN.utils.ppo_core import mlp
-from VaR_DQN.utils.param import Param
-from VaR_DQN.utils.dqn_core import DQN_Agent, model_get
-from VaR_DQN.utils.schedule import *
-from VaR_DQN.attacker.attacker import Huang_Attack, Pattanaik_Attack
+from WocaR_DQN.a2c_ppo_acktr import algo, utils
+from WocaR_DQN.a2c_ppo_acktr.arguments import get_args
+from WocaR_DQN.a2c_ppo_acktr.envs import make_vec_envs
+from WocaR_DQN.a2c_ppo_acktr.model import Policy, BetaMLP
+from WocaR_DQN.a2c_ppo_acktr.storage import RolloutStorage
+from WocaR_DQN.utils.ppo_core import mlp
+from WocaR_DQN.utils.param import Param
+from WocaR_DQN.utils.dqn_core import DQN_Agent, model_get
+from WocaR_DQN.utils.schedule import *
+from WocaR_DQN.attacker.attacker import Huang_Attack, Pattanaik_Attack
 
 COEFF = 1
 

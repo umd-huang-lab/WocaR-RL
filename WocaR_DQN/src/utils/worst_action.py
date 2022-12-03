@@ -5,8 +5,8 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 sys.path.append(os.path.dirname(__file__))
 sys.path.append(__file__)
 
-from VaR_DQN.utils.dqn_core import *
-from VaR_DQN.utils.ibp import *
+from WocaR_DQN.utils.dqn_core import *
+from WocaR_DQN.utils.ibp import *
 
 import torch
 import numpy as np

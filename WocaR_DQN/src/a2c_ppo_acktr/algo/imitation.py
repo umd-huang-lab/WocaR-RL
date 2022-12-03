@@ -7,7 +7,7 @@ from itertools import count
 import numpy as np
 import random
 import pickle
-from VaR_DQN.utils.param import Param
+from WocaR_DQN.utils.param import Param
 
 def imitate_learning(imitate_steps, expert_attacker, victim, 
                      attacker, envs, attacker_args, cont,
