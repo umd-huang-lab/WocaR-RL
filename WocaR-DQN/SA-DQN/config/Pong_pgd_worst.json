@@ -1,0 +1,17 @@
+{
+    "env_id": "PongNoFrameskip-v4",
+    "training_config": {
+        "dueling": false,
+        "env_params": {
+            "crop_shift": 10,
+            "restrict_actions": 4
+        },
+        "bound_solver": "pgd",
+        "worst": true,
+        "worst_rate": 1,
+        "worst_ratio": 0.01,
+        "worst_eps_end": 0.0005,
+        "worst_schedule":3000000,
+        "worst_kappa_end": 0.9
+    }
+}

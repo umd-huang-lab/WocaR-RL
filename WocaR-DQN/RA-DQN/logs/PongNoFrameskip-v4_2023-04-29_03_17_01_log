@@ -1,0 +1,33 @@
+2023-04-29 03:17:01,368 : lr: 0.000125
+2023-04-29 03:17:01,368 : gamma: 0.99
+2023-04-29 03:17:01,369 : seed: None
+2023-04-29 03:17:01,369 : total_frames: 2000000
+2023-04-29 03:17:01,369 : max_episode_length: 10000
+2023-04-29 03:17:01,369 : env: PongNoFrameskip-v4
+2023-04-29 03:17:01,370 : env_config: config.json
+2023-04-29 03:17:01,370 : save_max: True
+2023-04-29 03:17:01,370 : optimizer: Adam
+2023-04-29 03:17:01,370 : save_model_dir: trained_models/
+2023-04-29 03:17:01,370 : log_dir: logs/
+2023-04-29 03:17:01,371 : gpu_id: 0
+2023-04-29 03:17:01,371 : amsgrad: False
+2023-04-29 03:17:01,371 : worse_bound: True
+2023-04-29 03:17:01,371 : skip_rate: 4
+2023-04-29 03:17:01,371 : kappa_end: 0.5
+2023-04-29 03:17:01,372 : robust: True
+2023-04-29 03:17:01,372 : load_path: trained_models/PongNoFrameskip-v4_robust.pt
+2023-04-29 03:17:01,372 : attack_epsilon_end: 0.00392156862745098
+2023-04-29 03:17:01,372 : attack_epsilon_schedule: 3000000
+2023-04-29 03:17:01,372 : exp_epsilon_end: 0.01
+2023-04-29 03:17:01,372 : exp_epsilon_decay: 1
+2023-04-29 03:17:01,373 : replay_initial: 1000
+2023-04-29 03:17:01,373 : batch_size: 128
+2023-04-29 03:17:01,373 : updates_per_frame: 32
+2023-04-29 03:17:01,373 : buffer_size: 200000
+2023-04-29 03:20:47,813 : Steps: 17990, Test reward: 20.0, Time taken: 226.441s
+2023-04-29 03:23:46,808 : Steps: 30100, Test reward: 21.0, Time taken: 405.435s
+2023-04-29 03:32:35,010 : Steps: 58015, Test reward: 21.0, Time taken: 933.636s
+2023-04-29 03:47:16,875 : Steps: 97765, Test reward: 21.0, Time taken: 1815.502s
+2023-04-29 03:53:31,030 : Steps: 109295, Test reward: 21.0, Time taken: 2189.657s
+2023-04-29 03:55:39,498 : Steps: 112745, Test reward: 19.0, Time taken: 2318.125s
+2023-04-29 04:03:46,420 : Steps: 125890, Test reward: 21.0, Time taken: 2805.047s

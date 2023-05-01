@@ -1,0 +1,35 @@
+2023-04-29 21:50:13,698 : lr: 0.000125
+2023-04-29 21:50:13,698 : gamma: 0.99
+2023-04-29 21:50:13,699 : seed: None
+2023-04-29 21:50:13,699 : total_frames: 500000
+2023-04-29 21:50:13,699 : max_episode_length: 10000
+2023-04-29 21:50:13,700 : env: BankHeistNoFrameskip-v4
+2023-04-29 21:50:13,700 : env_config: config.json
+2023-04-29 21:50:13,700 : save_max: True
+2023-04-29 21:50:13,700 : optimizer: Adam
+2023-04-29 21:50:13,701 : save_model_dir: trained_models/
+2023-04-29 21:50:13,701 : log_dir: logs/
+2023-04-29 21:50:13,701 : gpu_id: 0
+2023-04-29 21:50:13,701 : amsgrad: False
+2023-04-29 21:50:13,702 : worse_bound: True
+2023-04-29 21:50:13,702 : skip_rate: 4
+2023-04-29 21:50:13,702 : kappa_end: 0.5
+2023-04-29 21:50:13,702 : robust: True
+2023-04-29 21:50:13,702 : wocar: True
+2023-04-29 21:50:13,702 : worst_ratio: 0.01
+2023-04-29 21:50:13,703 : worst_rate: 100
+2023-04-29 21:50:13,703 : load_path: trained_models/BankHeistNoFrameskip-v4_robust.pt
+2023-04-29 21:50:13,703 : attack_epsilon_end: 0.00392156862745098
+2023-04-29 21:50:13,703 : attack_epsilon_schedule: 3000000
+2023-04-29 21:50:13,703 : exp_epsilon_end: 0.01
+2023-04-29 21:50:13,703 : exp_epsilon_decay: 1
+2023-04-29 21:50:13,704 : replay_initial: 256
+2023-04-29 21:50:13,704 : batch_size: 16
+2023-04-29 21:50:13,704 : updates_per_frame: 32
+2023-04-29 21:50:13,704 : buffer_size: 200000
+2023-04-29 21:55:11,685 : Steps: 18380, Test reward: 0.0, Time taken: 297.981s
+2023-04-29 22:10:05,159 : Steps: 70305, Test reward: 0.0, Time taken: 1191.455s
+2023-04-29 22:11:56,888 : Steps: 76735, Test reward: 0.0, Time taken: 1303.184s
+2023-04-29 22:12:36,632 : Steps: 78680, Test reward: 0.0, Time taken: 1342.928s
+2023-04-29 22:15:03,185 : Steps: 86995, Test reward: 10.0, Time taken: 1489.481s
+2023-04-29 22:22:07,817 : Steps: 107555, Test reward: 0.0, Time taken: 1914.111s

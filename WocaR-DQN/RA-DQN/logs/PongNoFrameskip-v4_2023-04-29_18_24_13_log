@@ -1,0 +1,43 @@
+2023-04-29 18:24:13,822 : lr: 0.000125
+2023-04-29 18:24:13,822 : gamma: 0.99
+2023-04-29 18:24:13,822 : seed: None
+2023-04-29 18:24:13,822 : total_frames: 200000
+2023-04-29 18:24:13,833 : max_episode_length: 10000
+2023-04-29 18:24:13,833 : env: PongNoFrameskip-v4
+2023-04-29 18:24:13,834 : env_config: config.json
+2023-04-29 18:24:13,835 : save_max: True
+2023-04-29 18:24:13,835 : optimizer: Adam
+2023-04-29 18:24:13,835 : save_model_dir: trained_models/
+2023-04-29 18:24:13,835 : log_dir: logs/
+2023-04-29 18:24:13,836 : gpu_id: 0
+2023-04-29 18:24:13,836 : amsgrad: False
+2023-04-29 18:24:13,837 : worse_bound: True
+2023-04-29 18:24:13,837 : skip_rate: 4
+2023-04-29 18:24:13,837 : kappa_end: 0.5
+2023-04-29 18:24:13,837 : robust: True
+2023-04-29 18:24:13,838 : wocar: True
+2023-04-29 18:24:13,838 : worst_ratio: 0.05
+2023-04-29 18:24:13,838 : worst_rate: 100
+2023-04-29 18:24:13,838 : load_path: trained_models/PongNoFrameskip-v4_robust.pt
+2023-04-29 18:24:13,838 : attack_epsilon_end: 0.00392156862745098
+2023-04-29 18:24:13,839 : attack_epsilon_schedule: 3000000
+2023-04-29 18:24:13,839 : exp_epsilon_end: 0.01
+2023-04-29 18:24:13,839 : exp_epsilon_decay: 1
+2023-04-29 18:24:13,839 : replay_initial: 256
+2023-04-29 18:24:13,839 : batch_size: 16
+2023-04-29 18:24:13,839 : updates_per_frame: 32
+2023-04-29 18:24:13,840 : buffer_size: 200000
+2023-04-29 18:26:20,964 : Steps: 8225, Test reward: 20.0, Time taken: 127.124s
+2023-04-29 18:26:50,963 : Steps: 9940, Test reward: 21.0, Time taken: 157.124s
+2023-04-29 18:29:13,396 : Steps: 18725, Test reward: 20.0, Time taken: 299.557s
+2023-04-29 18:31:54,515 : Steps: 28905, Test reward: 21.0, Time taken: 460.676s
+2023-04-29 18:36:37,365 : Steps: 46830, Test reward: 21.0, Time taken: 743.525s
+2023-04-29 18:40:37,526 : Steps: 58855, Test reward: 21.0, Time taken: 983.687s
+2023-04-29 18:45:50,889 : Steps: 72715, Test reward: 21.0, Time taken: 1297.049s
+2023-04-29 18:51:49,693 : Steps: 91735, Test reward: 21.0, Time taken: 1655.854s
+2023-04-29 18:52:20,889 : Steps: 93380, Test reward: 21.0, Time taken: 1687.049s
+2023-04-29 18:57:01,074 : Steps: 105950, Test reward: 21.0, Time taken: 1967.234s
+2023-04-29 18:58:57,296 : Steps: 110945, Test reward: 21.0, Time taken: 2083.456s
+2023-04-29 18:59:45,918 : Steps: 112575, Test reward: 20.0, Time taken: 2132.079s
+2023-04-29 19:00:42,204 : Steps: 114440, Test reward: 21.0, Time taken: 2188.364s
+2023-04-29 19:05:48,981 : Steps: 127935, Test reward: 21.0, Time taken: 2495.141s

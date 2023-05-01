@@ -1,5 +1,0 @@
-{
-    "env_name": "PongNoFrameskip-v4",
-    "exp_name": "PongNoFrameskip-v4",
-    "log_steps": 20
-}

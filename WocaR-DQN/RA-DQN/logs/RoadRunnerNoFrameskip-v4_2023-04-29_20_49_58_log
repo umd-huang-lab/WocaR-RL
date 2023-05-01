@@ -1,0 +1,48 @@
+2023-04-29 20:49:58,034 : lr: 0.000125
+2023-04-29 20:49:58,034 : gamma: 0.99
+2023-04-29 20:49:58,034 : seed: None
+2023-04-29 20:49:58,034 : total_frames: 500000
+2023-04-29 20:49:58,034 : max_episode_length: 10000
+2023-04-29 20:49:58,035 : env: RoadRunnerNoFrameskip-v4
+2023-04-29 20:49:58,035 : env_config: config.json
+2023-04-29 20:49:58,035 : save_max: True
+2023-04-29 20:49:58,035 : optimizer: Adam
+2023-04-29 20:49:58,035 : save_model_dir: trained_models/
+2023-04-29 20:49:58,035 : log_dir: logs/
+2023-04-29 20:49:58,035 : gpu_id: 0
+2023-04-29 20:49:58,035 : amsgrad: False
+2023-04-29 20:49:58,035 : worse_bound: True
+2023-04-29 20:49:58,036 : skip_rate: 4
+2023-04-29 20:49:58,036 : kappa_end: 0.5
+2023-04-29 20:49:58,036 : robust: True
+2023-04-29 20:49:58,036 : wocar: True
+2023-04-29 20:49:58,036 : worst_ratio: 0.01
+2023-04-29 20:49:58,036 : worst_rate: 100
+2023-04-29 20:49:58,036 : load_path: trained_models/RoadRunnerNoFrameskip-v4_trained.pt
+2023-04-29 20:49:58,036 : attack_epsilon_end: 0.00392156862745098
+2023-04-29 20:49:58,036 : attack_epsilon_schedule: 3000000
+2023-04-29 20:49:58,037 : exp_epsilon_end: 0.01
+2023-04-29 20:49:58,037 : exp_epsilon_decay: 1
+2023-04-29 20:49:58,037 : replay_initial: 256
+2023-04-29 20:49:58,038 : batch_size: 16
+2023-04-29 20:49:58,038 : updates_per_frame: 32
+2023-04-29 20:49:58,038 : buffer_size: 200000
+2023-04-29 20:50:04,322 : Steps: 315, Test reward: 0.0, Time taken: 6.283s
+2023-04-29 20:50:20,268 : Steps: 1000, Test reward: 0.0, Time taken: 22.229s
+2023-04-29 20:50:36,216 : Steps: 1755, Test reward: 0.0, Time taken: 38.177s
+2023-04-29 20:50:41,409 : Steps: 1960, Test reward: 0.0, Time taken: 43.370s
+2023-04-29 20:50:51,935 : Steps: 2370, Test reward: 0.0, Time taken: 53.896s
+2023-04-29 20:50:57,303 : Steps: 2575, Test reward: 0.0, Time taken: 59.264s
+2023-04-29 20:51:04,161 : Steps: 2850, Test reward: 0.0, Time taken: 66.122s
+2023-04-29 20:51:20,173 : Steps: 3465, Test reward: 0.0, Time taken: 82.134s
+2023-04-29 20:51:25,754 : Steps: 3670, Test reward: 0.0, Time taken: 87.714s
+2023-04-29 20:51:33,076 : Steps: 3945, Test reward: 0.0, Time taken: 95.037s
+2023-04-29 20:51:46,484 : Steps: 4495, Test reward: 0.0, Time taken: 108.445s
+2023-04-29 20:52:33,332 : Steps: 7035, Test reward: 0.0, Time taken: 155.292s
+2023-04-29 20:52:47,878 : Steps: 7585, Test reward: 0.0, Time taken: 169.839s
+2023-04-29 20:52:58,763 : Steps: 8025, Test reward: 0.0, Time taken: 180.724s
+2023-04-29 20:53:08,736 : Steps: 8440, Test reward: 0.0, Time taken: 190.697s
+2023-04-29 20:53:32,881 : Steps: 9715, Test reward: 0.0, Time taken: 214.842s
+2023-04-29 20:53:37,918 : Steps: 9920, Test reward: 0.0, Time taken: 219.879s
+2023-04-29 20:53:40,089 : Steps: 9990, Test reward: 0.0, Time taken: 222.050s
+2023-04-29 20:53:50,295 : Steps: 10400, Test reward: 0.0, Time taken: 232.256s

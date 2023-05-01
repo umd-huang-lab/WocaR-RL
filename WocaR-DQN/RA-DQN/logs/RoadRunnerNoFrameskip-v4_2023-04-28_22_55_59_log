@@ -1,0 +1,28 @@
+2023-04-28 22:55:59,554 : lr: 0.000125
+2023-04-28 22:55:59,554 : gamma: 0.99
+2023-04-28 22:55:59,554 : seed: None
+2023-04-28 22:55:59,554 : total_frames: 4500000
+2023-04-28 22:55:59,560 : max_episode_length: 10000
+2023-04-28 22:55:59,560 : env: RoadRunnerNoFrameskip-v4
+2023-04-28 22:55:59,560 : env_config: config.json
+2023-04-28 22:55:59,561 : save_max: True
+2023-04-28 22:55:59,561 : optimizer: Adam
+2023-04-28 22:55:59,561 : save_model_dir: trained_models/
+2023-04-28 22:55:59,561 : log_dir: logs/
+2023-04-28 22:55:59,562 : gpu_id: -1
+2023-04-28 22:55:59,562 : amsgrad: False
+2023-04-28 22:55:59,563 : worse_bound: True
+2023-04-28 22:55:59,563 : skip_rate: 4
+2023-04-28 22:55:59,563 : kappa_end: 0.5
+2023-04-28 22:55:59,563 : robust: True
+2023-04-28 22:55:59,564 : load_path: trained_models/RoadRunnerNoFrameskip-v4_trained.pt
+2023-04-28 22:55:59,564 : attack_epsilon_end: 0.00392156862745098
+2023-04-28 22:55:59,564 : attack_epsilon_schedule: 3000000
+2023-04-28 22:55:59,564 : exp_epsilon_end: 0.01
+2023-04-28 22:55:59,565 : exp_epsilon_decay: 1
+2023-04-28 22:55:59,565 : replay_initial: 256
+2023-04-28 22:55:59,565 : batch_size: 128
+2023-04-28 22:55:59,566 : updates_per_frame: 32
+2023-04-28 22:55:59,566 : buffer_size: 200000
+2023-04-28 22:56:02,765 : Steps: 205, Test reward: 0.0, Time taken: 3.199s
+2023-04-28 22:56:19,561 : Steps: 410, Test reward: 0.0, Time taken: 19.995s
