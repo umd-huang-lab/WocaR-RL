@@ -32,7 +32,7 @@
     "force_stop_step": -1,
     "game": "HalfCheetah-v2",
     "gamma": 0.99,
-    "history_length": -1,
+    "history_length": 10,
     "initial_std": 0.5,
     "initialization": "orthogonal",
     "kl_approximation_iters": -1,
